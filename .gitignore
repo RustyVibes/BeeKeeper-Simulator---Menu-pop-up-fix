@@ -1,0 +1,11 @@
+# Build intermediates
+obj/
+
+# Debug builds and symbols; the release DLL in bin/Release is committed on purpose
+bin/Debug/
+bin/Release/*.pdb
+bin/Release/*.deps.json
+
+# Editor / OS noise
+*.user
+.DS_Store
